@@ -16,9 +16,9 @@ onto controllers much like mixins. So for example, to attach a behavior (that at
 
 The above would attach all of the necessary logic in `MySpecialHandler` to the controller in question.
 
-`MySepcialHandler` might look like:
+`MySpecialHandler` might look like:
 
-    class MySepcialHandler: UIViewController, WTFEventHandler {
+    class MySpecialHandler: UIViewController, WTFEventHandler {
         
         // boilerplate
         // ...
@@ -35,4 +35,4 @@ The above would attach all of the necessary logic in `MySpecialHandler` to the c
         }
     }
 
-This framework is hacky and doesn't really work. It's just a proof of concept so that I could explain some ideas to some fellow devs.
+This framework is hacky and doesn't really work (well, it does, but it's not finished by any means). It's just a proof of concept so that I could explain some ideas to some fellow devs.

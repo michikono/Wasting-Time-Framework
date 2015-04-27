@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67DD8081AEDBFB700708CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8071AEDBFB700708CCA /* AppDelegate.swift */; };
+		C67DD80B1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8091AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld */; };
+		C67DD80D1AEDBFB700708CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD80C1AEDBFB700708CCA /* ViewController.swift */; };
+		C67DD8101AEDBFB700708CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67DD80E1AEDBFB700708CCA /* Main.storyboard */; };
+		C67DD8121AEDBFB700708CCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67DD8111AEDBFB700708CCA /* Images.xcassets */; };
+		C67DD8151AEDBFB700708CCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67DD8131AEDBFB700708CCA /* LaunchScreen.xib */; };
+		C67DD8211AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8201AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67DD81B1AEDBFB700708CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67DD7FA1AEDBFB700708CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67DD8011AEDBFB700708CCA;
+			remoteInfo = "Wasting Time Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67DD8021AEDBFB700708CCA /* Wasting Time Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wasting Time Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67DD8061AEDBFB700708CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67DD8071AEDBFB700708CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C67DD80A1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wasting_Time_Framework.xcdatamodel; sourceTree = "<group>"; };
+		C67DD80C1AEDBFB700708CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C67DD80F1AEDBFB700708CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67DD8111AEDBFB700708CCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C67DD8141AEDBFB700708CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C67DD81A1AEDBFB700708CCA /* Wasting Time FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wasting Time FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67DD81F1AEDBFB700708CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67DD8201AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wasting_Time_FrameworkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67DD7FF1AEDBFB700708CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67DD8171AEDBFB700708CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67DD7F91AEDBFB700708CCA = {
+			isa = PBXGroup;
+			children = (
+				C67DD8041AEDBFB700708CCA /* Wasting Time Framework */,
+				C67DD81D1AEDBFB700708CCA /* Wasting Time FrameworkTests */,
+				C67DD8031AEDBFB700708CCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67DD8031AEDBFB700708CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD8021AEDBFB700708CCA /* Wasting Time Framework.app */,
+				C67DD81A1AEDBFB700708CCA /* Wasting Time FrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67DD8041AEDBFB700708CCA /* Wasting Time Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD8071AEDBFB700708CCA /* AppDelegate.swift */,
+				C67DD80C1AEDBFB700708CCA /* ViewController.swift */,
+				C67DD80E1AEDBFB700708CCA /* Main.storyboard */,
+				C67DD8111AEDBFB700708CCA /* Images.xcassets */,
+				C67DD8131AEDBFB700708CCA /* LaunchScreen.xib */,
+				C67DD8091AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld */,
+				C67DD8051AEDBFB700708CCA /* Supporting Files */,
+			);
+			path = "Wasting Time Framework";
+			sourceTree = "<group>";
+		};
+		C67DD8051AEDBFB700708CCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD8061AEDBFB700708CCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67DD81D1AEDBFB700708CCA /* Wasting Time FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD8201AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift */,
+				C67DD81E1AEDBFB700708CCA /* Supporting Files */,
+			);
+			path = "Wasting Time FrameworkTests";
+			sourceTree = "<group>";
+		};
+		C67DD81E1AEDBFB700708CCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD81F1AEDBFB700708CCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67DD8011AEDBFB700708CCA /* Wasting Time Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67DD8241AEDBFB700708CCA /* Build configuration list for PBXNativeTarget "Wasting Time Framework" */;
+			buildPhases = (
+				C67DD7FE1AEDBFB700708CCA /* Sources */,
+				C67DD7FF1AEDBFB700708CCA /* Frameworks */,
+				C67DD8001AEDBFB700708CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wasting Time Framework";
+			productName = "Wasting Time Framework";
+			productReference = C67DD8021AEDBFB700708CCA /* Wasting Time Framework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67DD8191AEDBFB700708CCA /* Wasting Time FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67DD8271AEDBFB700708CCA /* Build configuration list for PBXNativeTarget "Wasting Time FrameworkTests" */;
+			buildPhases = (
+				C67DD8161AEDBFB700708CCA /* Sources */,
+				C67DD8171AEDBFB700708CCA /* Frameworks */,
+				C67DD8181AEDBFB700708CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67DD81C1AEDBFB700708CCA /* PBXTargetDependency */,
+			);
+			name = "Wasting Time FrameworkTests";
+			productName = "Wasting Time FrameworkTests";
+			productReference = C67DD81A1AEDBFB700708CCA /* Wasting Time FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67DD7FA1AEDBFB700708CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michi Kono";
+				TargetAttributes = {
+					C67DD8011AEDBFB700708CCA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C67DD8191AEDBFB700708CCA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C67DD8011AEDBFB700708CCA;
+					};
+				};
+			};
+			buildConfigurationList = C67DD7FD1AEDBFB700708CCA /* Build configuration list for PBXProject "Wasting Time Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67DD7F91AEDBFB700708CCA;
+			productRefGroup = C67DD8031AEDBFB700708CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67DD8011AEDBFB700708CCA /* Wasting Time Framework */,
+				C67DD8191AEDBFB700708CCA /* Wasting Time FrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67DD8001AEDBFB700708CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67DD8101AEDBFB700708CCA /* Main.storyboard in Resources */,
+				C67DD8151AEDBFB700708CCA /* LaunchScreen.xib in Resources */,
+				C67DD8121AEDBFB700708CCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67DD8181AEDBFB700708CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67DD7FE1AEDBFB700708CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67DD80D1AEDBFB700708CCA /* ViewController.swift in Sources */,
+				C67DD8081AEDBFB700708CCA /* AppDelegate.swift in Sources */,
+				C67DD80B1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67DD8161AEDBFB700708CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67DD8211AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67DD81C1AEDBFB700708CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67DD8011AEDBFB700708CCA /* Wasting Time Framework */;
+			targetProxy = C67DD81B1AEDBFB700708CCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C67DD80E1AEDBFB700708CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67DD80F1AEDBFB700708CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C67DD8131AEDBFB700708CCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67DD8141AEDBFB700708CCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67DD8221AEDBFB700708CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67DD8231AEDBFB700708CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67DD8251AEDBFB700708CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wasting Time Framework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C67DD8261AEDBFB700708CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wasting Time Framework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C67DD8281AEDBFB700708CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wasting Time FrameworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasting Time Framework.app/Wasting Time Framework";
+			};
+			name = Debug;
+		};
+		C67DD8291AEDBFB700708CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wasting Time FrameworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasting Time Framework.app/Wasting Time Framework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67DD7FD1AEDBFB700708CCA /* Build configuration list for PBXProject "Wasting Time Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67DD8221AEDBFB700708CCA /* Debug */,
+				C67DD8231AEDBFB700708CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67DD8241AEDBFB700708CCA /* Build configuration list for PBXNativeTarget "Wasting Time Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67DD8251AEDBFB700708CCA /* Debug */,
+				C67DD8261AEDBFB700708CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C67DD8271AEDBFB700708CCA /* Build configuration list for PBXNativeTarget "Wasting Time FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67DD8281AEDBFB700708CCA /* Debug */,
+				C67DD8291AEDBFB700708CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C67DD8091AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C67DD80A1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodel */,
+			);
+			currentVersion = C67DD80A1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodel */;
+			path = Wasting_Time_Framework.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C67DD7FA1AEDBFB700708CCA /* Project object */;
+}

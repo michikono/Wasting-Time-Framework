@@ -20,14 +20,15 @@ The above would attach all of the necessary logic in `MySpecialHandler` to the c
 
     class MySpecialHandler: UIViewController, WTFEventHandler {
         
-        // boilerplate that needs to be reduced because mixins would erase this part
+        // boilerplate that needs to be reduced because mixins 
+        // would erase this part
         // ...
         
-        func viewDidLoad(context: UIViewController) {
+        override func viewDidLoad() {
             println("logging that view did load")
             // do special stuff here
         }
-        func viewDidUnload(context: UIViewController) {
+        override func viewDidUnload() {
             println("logging that view did unload")
             // do special stuff here
         }

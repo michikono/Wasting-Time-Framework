@@ -23,6 +23,9 @@ class WTFUIViewController: UIViewController {
         super.viewDidLoad()
         WTFEvent.fire(.viewDidLoad, forContext: self)
     }
+    
+    
+    
     override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)
         WTFEvent.fire(.viewWillTransitionToSize, forContext: self, arguments: size, coordinator)

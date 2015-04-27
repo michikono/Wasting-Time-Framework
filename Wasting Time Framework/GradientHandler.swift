@@ -11,25 +11,27 @@ import UIKit
 class GradientHandler: UIViewController, WTFEventHandler {
     
     var gradient: GradientUIViewDectorator?
+    var context: UIViewController?
     
     // boilerplate
     func callListener(handler: WTFEventType, forContext context: Any, arguments: [Any]) {
+        self.context = context as? UIViewController
         switch handler {
         case .viewDidLoad:
-            self.viewDidLoad(context as! UIViewController)
+            self.viewDidLoad()
         case .viewWillTransitionToSize:
-            self.viewWillTransitionToSize(context as! UIViewController, size: arguments[0] as! CGSize, withTransitionCoordinator: arguments[1] as! UIViewControllerTransitionCoordinator)
+            self.viewWillTransitionToSize(arguments[0] as! CGSize, withTransitionCoordinator: arguments[1] as! UIViewControllerTransitionCoordinator)
         default: break
         }
     }
 
-    func viewDidLoad(context: UIViewController) {
+    override func viewDidLoad() {
         println("applying gradient in viewDidLoad")
-        gradient = GradientUIViewDectorator(usingDefaultTemplate: (context as UIViewController).view)
+        gradient = GradientUIViewDectorator(usingDefaultTemplate: context!.view)
 
     }
     
-    func viewWillTransitionToSize(context: UIViewController, size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
         // do my gradient resize logic
         println("resizing gradient")
         gradient!.animateResize(coordinator)

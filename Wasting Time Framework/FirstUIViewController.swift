@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Michi Kono. All rights reserved.
 //
 
-class FirstUIViewController : MasterUIViewController {
+class FirstUIViewController : WTFUIViewController {
     override func defineHooks() {
         super.defineHooks()
-        WTFEvent.listen(ConsoleLoggerHandler(), forContext: self)
-        WTFEvent.listen(GradientHandler(), forContext: self)
+        WTFEvent.attach(ConsoleLoggerHandler(), forContext: self)
+        WTFEvent.attach(GradientHandler(), forContext: self)
     }
 }

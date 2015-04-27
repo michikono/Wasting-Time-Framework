@@ -18,9 +18,9 @@ class WTFEvent {
         }
     }
     
-    class func listen(handler: WTFEventHandler, forContext: AnyObject) {
+    class func attach(handler: WTFEventHandler, forContext context: AnyObject) {
         // attaches a generic listner to the current context
-        WTFEventQueue.instance().add(handler, context: forContext)
+        WTFEventQueue.instance().add(handler, context: context)
     }
     
     

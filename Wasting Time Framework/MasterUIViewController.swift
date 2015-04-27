@@ -1,5 +1,5 @@
 //
-//  MasterUIViewController.swift
+//  WTFUIViewController.swift
 //  Wasting Time Framework
 //
 //  Created by Michi Kono on 4/26/15.
@@ -9,7 +9,7 @@
 import UIKit
 
 // ideally this would be an extension instead
-class MasterUIViewController: UIViewController {    
+class WTFUIViewController: UIViewController {    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         defineHooks()

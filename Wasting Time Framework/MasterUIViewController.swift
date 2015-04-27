@@ -8,9 +8,8 @@
 
 import UIKit
 
-class MasterUIViewController: UIViewController {
-    var events: Array<WTFEventHandler> = []
-    
+// ideally this would be an extension instead
+class MasterUIViewController: UIViewController {    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         defineHooks()

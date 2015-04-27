@@ -22,6 +22,5 @@ class ConsoleLoggerHandler: UIViewController, WTFEventHandler {
     
     func viewDidLoad(context: UIViewController) {
         println("logging that view did load")
-        super.viewDidLoad()
     }
 }

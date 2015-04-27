@@ -10,6 +10,8 @@ class SecondUIViewController : WTFUIViewController {
     override func defineHooks() {
         super.defineHooks()
         WTFEvent.attach(ConsoleLoggerHandler(), forContext: self)
-        WTFEvent.attach(GradientHandler(), forContext: self)
+        
+        // try uncommenting me!
+        // WTFEvent.attach(GradientHandler(), forContext: self)
     }
 }

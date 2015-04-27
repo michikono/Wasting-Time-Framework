@@ -28,7 +28,6 @@ class WTFEventQueue {
     }
     
     func add(handler: WTFEventHandler, context: AnyObject) {
-        
         let name = stringifyObject(context)
         if handlers[name] == nil {
             handlers[name] = []
@@ -43,5 +42,10 @@ class WTFEventQueue {
         } else {
             return handlers[name]!
         }
+    }
+    
+    func unload(context: AnyObject) {
+        let name = stringifyObject(context)
+        handlers.removeValueForKey(name)
     }
 }

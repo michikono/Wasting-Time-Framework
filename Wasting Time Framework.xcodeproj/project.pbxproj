@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C620110A1AEEA5130031ED28 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C62011091AEEA5130031ED28 /* README.md */; };
 		C67DD8081AEDBFB700708CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8071AEDBFB700708CCA /* AppDelegate.swift */; };
 		C67DD80B1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8091AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld */; };
 		C67DD80D1AEDBFB700708CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD80C1AEDBFB700708CCA /* ViewController.swift */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C62011091AEEA5130031ED28 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C67DD8021AEDBFB700708CCA /* Wasting Time Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wasting Time Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67DD8061AEDBFB700708CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67DD8071AEDBFB700708CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 		C67DD7F91AEDBFB700708CCA = {
 			isa = PBXGroup;
 			children = (
-				C62011091AEEA5130031ED28 /* README.md */,
 				C67DD8041AEDBFB700708CCA /* Wasting Time Framework */,
 				C67DD81D1AEDBFB700708CCA /* Wasting Time FrameworkTests */,
 				C67DD8031AEDBFB700708CCA /* Products */,
@@ -293,7 +290,6 @@
 				C67DD8411AEDCCF800708CCA /* SecondViewController.swift in Sources */,
 				C67DD8331AEDC03F00708CCA /* ConsoleLoggerHandler.swift in Sources */,
 				C67DD8341AEDC03F00708CCA /* FirstUIViewController.swift in Sources */,
-				C620110A1AEEA5130031ED28 /* README.md in Sources */,
 				C67DD8081AEDBFB700708CCA /* AppDelegate.swift in Sources */,
 				C67DD8361AEDC03F00708CCA /* WTFEventContextHandler.swift in Sources */,
 				C67DD83D1AEDCB2500708CCA /* GradientUIViewDecorator.swift in Sources */,

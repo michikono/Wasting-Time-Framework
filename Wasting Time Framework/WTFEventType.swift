@@ -8,5 +8,6 @@
 
 enum WTFEventType {
     case viewDidLoad
+    case viewDidAppear
     case viewWillTransitionToSize
 }

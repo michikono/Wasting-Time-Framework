@@ -8,9 +8,10 @@
 
 import UIKit
 
-class GradientHandler: UIViewController, WTFEventHandler {
+class GradientHandler: WTFEventHandler {
     
     var gradient: GradientUIViewDectorator?
+    
     var context: UIViewController?
     
     // boilerplate
@@ -24,14 +25,14 @@ class GradientHandler: UIViewController, WTFEventHandler {
         default: break
         }
     }
-
-    override func viewDidLoad() {
+    
+    func viewDidLoad() {
         println("applying gradient in viewDidLoad")
         gradient = GradientUIViewDectorator(usingDefaultTemplate: context!.view)
-
+        
     }
     
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+    func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
         // do my gradient resize logic
         println("resizing gradient")
         gradient!.animateResize(coordinator)

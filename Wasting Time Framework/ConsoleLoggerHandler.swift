@@ -8,19 +8,28 @@
 
 import UIKit
 
-class ConsoleLoggerHandler: UIViewController, WTFEventHandler {
+class ConsoleLoggerHandler: WTFEventHandler {
+    
+    var context: Any?
     
     // boilerplate
     func callListener(handler: WTFEventType, forContext context: Any, arguments: [Any]) {
+        self.context = context as Any
         switch handler {
         case .viewDidLoad:
-            self.viewDidLoad(context as! UIViewController)
+            self.viewDidLoad()
+        case .viewDidAppear:
+            self.viewDidAppear(arguments[0] as! Bool)
         default:
             break;
         }
     }
     
-    func viewDidLoad(context: UIViewController) {
+    func viewDidAppear(animated: Bool) {
+        println("logging view did appear")
+    }
+    
+    func viewDidLoad() {
         println("logging that view did load")
     }
 }

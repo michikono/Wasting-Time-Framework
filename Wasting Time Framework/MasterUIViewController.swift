@@ -23,8 +23,10 @@ class WTFUIViewController: UIViewController {
         super.viewDidLoad()
         WTFEvent.fire(.viewDidLoad, forContext: self)
     }
-    
-    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        WTFEvent.fire(.viewDidAppear, forContext: self, arguments: animated)
+    }
     
     override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransitionToSize(size, withTransitionCoordinator: coordinator)

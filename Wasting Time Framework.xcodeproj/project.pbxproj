@@ -14,6 +14,18 @@
 		C67DD8121AEDBFB700708CCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67DD8111AEDBFB700708CCA /* Images.xcassets */; };
 		C67DD8151AEDBFB700708CCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67DD8131AEDBFB700708CCA /* LaunchScreen.xib */; };
 		C67DD8211AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8201AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift */; };
+		C67DD8331AEDC03F00708CCA /* ConsoleLoggerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD82A1AEDC03F00708CCA /* ConsoleLoggerHandler.swift */; };
+		C67DD8341AEDC03F00708CCA /* FirstUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD82B1AEDC03F00708CCA /* FirstUIViewController.swift */; };
+		C67DD8351AEDC03F00708CCA /* WTFEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD82C1AEDC03F00708CCA /* WTFEvent.swift */; };
+		C67DD8361AEDC03F00708CCA /* WTFEventContextHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD82D1AEDC03F00708CCA /* WTFEventContextHandler.swift */; };
+		C67DD8371AEDC03F00708CCA /* WTFEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD82E1AEDC03F00708CCA /* WTFEventHandler.swift */; };
+		C67DD8381AEDC03F00708CCA /* WTFEventQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD82F1AEDC03F00708CCA /* WTFEventQueue.swift */; };
+		C67DD8391AEDC03F00708CCA /* WTFEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8301AEDC03F00708CCA /* WTFEventType.swift */; };
+		C67DD83A1AEDC03F00708CCA /* GradientHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8311AEDC03F00708CCA /* GradientHandler.swift */; };
+		C67DD83B1AEDC03F00708CCA /* MasterUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8321AEDC03F00708CCA /* MasterUIViewController.swift */; };
+		C67DD83D1AEDCB2500708CCA /* GradientUIViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD83C1AEDCB2500708CCA /* GradientUIViewDecorator.swift */; };
+		C67DD83F1AEDCCAA00708CCA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD83E1AEDCCAA00708CCA /* UIColor.swift */; };
+		C67DD8411AEDCCF800708CCA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67DD8401AEDCCF800708CCA /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,18 @@
 		C67DD81A1AEDBFB700708CCA /* Wasting Time FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wasting Time FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67DD81F1AEDBFB700708CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67DD8201AEDBFB700708CCA /* Wasting_Time_FrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wasting_Time_FrameworkTests.swift; sourceTree = "<group>"; };
+		C67DD82A1AEDC03F00708CCA /* ConsoleLoggerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLoggerHandler.swift; sourceTree = "<group>"; };
+		C67DD82B1AEDC03F00708CCA /* FirstUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstUIViewController.swift; sourceTree = "<group>"; };
+		C67DD82C1AEDC03F00708CCA /* WTFEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFEvent.swift; sourceTree = "<group>"; };
+		C67DD82D1AEDC03F00708CCA /* WTFEventContextHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFEventContextHandler.swift; sourceTree = "<group>"; };
+		C67DD82E1AEDC03F00708CCA /* WTFEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFEventHandler.swift; sourceTree = "<group>"; };
+		C67DD82F1AEDC03F00708CCA /* WTFEventQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFEventQueue.swift; sourceTree = "<group>"; };
+		C67DD8301AEDC03F00708CCA /* WTFEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTFEventType.swift; sourceTree = "<group>"; };
+		C67DD8311AEDC03F00708CCA /* GradientHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientHandler.swift; sourceTree = "<group>"; };
+		C67DD8321AEDC03F00708CCA /* MasterUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterUIViewController.swift; sourceTree = "<group>"; };
+		C67DD83C1AEDCB2500708CCA /* GradientUIViewDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientUIViewDecorator.swift; sourceTree = "<group>"; };
+		C67DD83E1AEDCCAA00708CCA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = "Wasting Time Framework/UIColor.swift"; sourceTree = "<group>"; };
+		C67DD8401AEDCCF800708CCA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,12 @@
 		C67DD8041AEDBFB700708CCA /* Wasting Time Framework */ = {
 			isa = PBXGroup;
 			children = (
+				C67DD8451AEDD04800708CCA /* Lib */,
+				C67DD8441AEDD03900708CCA /* Decorators */,
+				C67DD8431AEDD01200708CCA /* Handlers */,
+				C67DD8421AEDCFFF00708CCA /* Framework */,
+				C67DD82B1AEDC03F00708CCA /* FirstUIViewController.swift */,
+				C67DD8401AEDCCF800708CCA /* SecondViewController.swift */,
 				C67DD8071AEDBFB700708CCA /* AppDelegate.swift */,
 				C67DD80C1AEDBFB700708CCA /* ViewController.swift */,
 				C67DD80E1AEDBFB700708CCA /* Main.storyboard */,
@@ -113,6 +143,45 @@
 				C67DD81F1AEDBFB700708CCA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67DD8421AEDCFFF00708CCA /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD82C1AEDC03F00708CCA /* WTFEvent.swift */,
+				C67DD82D1AEDC03F00708CCA /* WTFEventContextHandler.swift */,
+				C67DD82E1AEDC03F00708CCA /* WTFEventHandler.swift */,
+				C67DD82F1AEDC03F00708CCA /* WTFEventQueue.swift */,
+				C67DD8301AEDC03F00708CCA /* WTFEventType.swift */,
+				C67DD8321AEDC03F00708CCA /* MasterUIViewController.swift */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C67DD8431AEDD01200708CCA /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD82A1AEDC03F00708CCA /* ConsoleLoggerHandler.swift */,
+				C67DD8311AEDC03F00708CCA /* GradientHandler.swift */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		C67DD8441AEDD03900708CCA /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD83C1AEDCB2500708CCA /* GradientUIViewDecorator.swift */,
+			);
+			name = Decorators;
+			sourceTree = "<group>";
+		};
+		C67DD8451AEDD04800708CCA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C67DD83E1AEDCCAA00708CCA /* UIColor.swift */,
+			);
+			name = Lib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +284,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67DD83A1AEDC03F00708CCA /* GradientHandler.swift in Sources */,
+				C67DD83F1AEDCCAA00708CCA /* UIColor.swift in Sources */,
 				C67DD80D1AEDBFB700708CCA /* ViewController.swift in Sources */,
+				C67DD8411AEDCCF800708CCA /* SecondViewController.swift in Sources */,
+				C67DD8331AEDC03F00708CCA /* ConsoleLoggerHandler.swift in Sources */,
+				C67DD8341AEDC03F00708CCA /* FirstUIViewController.swift in Sources */,
 				C67DD8081AEDBFB700708CCA /* AppDelegate.swift in Sources */,
+				C67DD8361AEDC03F00708CCA /* WTFEventContextHandler.swift in Sources */,
+				C67DD83D1AEDCB2500708CCA /* GradientUIViewDecorator.swift in Sources */,
+				C67DD8371AEDC03F00708CCA /* WTFEventHandler.swift in Sources */,
+				C67DD8391AEDC03F00708CCA /* WTFEventType.swift in Sources */,
+				C67DD83B1AEDC03F00708CCA /* MasterUIViewController.swift in Sources */,
+				C67DD8351AEDC03F00708CCA /* WTFEvent.swift in Sources */,
+				C67DD8381AEDC03F00708CCA /* WTFEventQueue.swift in Sources */,
 				C67DD80B1AEDBFB700708CCA /* Wasting_Time_Framework.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +496,7 @@
 				C67DD8261AEDBFB700708CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C67DD8271AEDBFB700708CCA /* Build configuration list for PBXNativeTarget "Wasting Time FrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +505,7 @@
 				C67DD8291AEDBFB700708CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

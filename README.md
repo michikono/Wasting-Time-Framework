@@ -9,8 +9,8 @@ onto controllers much like mixins. So for example, to attach a behavior (that at
     class MyUIViewController : MasterUIViewController {
         override func defineHooks() {
             super.defineHooks()
-            WTFEvent.listen(MySpecialHandler(), forContext: self)
-            WTFEvent.listen(GradientHandler(), forContext: self)
+            WTFEvent.attach(MySpecialHandler(), forContext: self)
+            WTFEvent.attach(GradientHandler(), forContext: self)
         }
     }
 
